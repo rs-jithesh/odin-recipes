@@ -1,0 +1,35 @@
+body {
+    text-align: center;
+}
+
+ul, ol {
+    display: inline-block;
+    list-style-position: inside;
+    text-align: left;
+}
+
+a {
+    color: brown;
+}
+
+.page-title {
+    background-color: yellow;
+    color: blue;
+}
+
+.dish-image {
+    width: 500px;
+    height: 500px;
+}
+
+.recipe-links {
+    background-color: aqua;
+    font-size: 22px;
+}
+
+.recipe-links li {
+    color: red;
+    margin: 10px;
+    padding: 10px;
+    background-color: darkgray;
+}
