@@ -1,52 +1,67 @@
 body {
-    text-align: center;
-    background-color: ghostwhite;
+    /* text-align: center; */
+    background-color: lightslategray;
+    color: whitesmoke;
+    font-family: 'Courier New', Courier, monospace;
 }
 
 a {
-    color: brown;
+    color: slateblue;
     font-weight: 200;
 }
 
 .page-title {
-    background-color: yellow;
-    color: blue;
-    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: lightgray;
+    border: 2px solid black;
+    color: black;
     font-size: 50px;
+    padding: 20px;
+    margin: 1% 10%;
 }
 
 .dish-image {
     width: 500px;
-    height: 500px;
-    border: 5px double black;
+    height: 400px;
+    border: 3px solid black;
 }
 
-.recipe-links {
-    background-color: aqua;
-    font-size: 22px;
+.dish-image-container {
     display: inline-block;
-    list-style-position: inside;
-    text-align: left;
-}
-
-.recipe-links li {
-    color: floralwhite;
-    margin: 10px;
-    padding: 10px;
-    background-color: darkgray;
-}
-
-.ingredients, .instructions {
-    text-align: left;
-    border: 2px solid black;
-    padding: 10px;
-    margin: 30px;
-    font-size: 20px;
-    font-family: 'Courier New', Courier, monospace;
+    vertical-align: middle;
+    padding: 2% 0;
 }
 
 .dish-info {
-    font-size: 20px;
-    margin: 50px 30px 50px 30px;
-    font-family:  'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 400px;
 }
+
+.recipe-card {
+    text-align: center;
+}
+
+.recipe-links {
+    background-color: lightgrey;
+    border: 2px solid black;
+    font-size: 28px;
+    list-style-position: inside;
+    text-align: left;
+    margin: 2% 10%;
+}
+
+.recipe-links li {
+    color: black;
+    margin: 10px;
+    padding: 10px;
+}
+
+.ingredients, .instructions, .dish-info {
+    background-color: lightgrey;
+    color: black;
+    text-align: left;
+    border: 2px solid black;
+    padding: 20px 50px;
+    font-size: 20px;
+    margin: 30px 10%;
+}
+
